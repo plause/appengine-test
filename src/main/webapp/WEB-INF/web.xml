@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>test</servlet-name>
+    <servlet-class>plause.appengine.test.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>system</servlet-name>
+    <servlet-class>plause.appengine.test.SystemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>system</servlet-name>
+    <url-pattern>/system</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>download</servlet-name>
+    <servlet-class>plause.appengine.test.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>download</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>

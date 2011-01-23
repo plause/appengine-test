@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>plause</groupId>
+    <artifactId>plause-appengine</artifactId>
+    <version>1-SNAPSHOT</version>
+    <relativePath></relativePath>
+  </parent>
+
+  <groupId>plause</groupId>
+  <artifactId>appengine-test</artifactId>
+  <version>1-SNAPSHOT</version>
+  <packaging>war</packaging>
+
+  <name>appengine-test</name>
+  <description>test appengine</description>
+  <url>http://plause.github.com/appengine-test</url>
+  <inceptionYear>2011</inceptionYear>
+
+  <scm>
+    <url>http://github.com/plause/appengine-test</url>
+    <connection>scm:git:git://github.com/plause/appengine-test.git</connection>
+    <developerConnection>scm:git:git@github.com:plause/appengine-test.git</developerConnection>
+  </scm>
+</project>
