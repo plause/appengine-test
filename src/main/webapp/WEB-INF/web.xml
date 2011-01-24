@@ -17,6 +17,14 @@
     <url-pattern>/system</url-pattern>
   </servlet-mapping>
   <servlet>
+    <servlet-name>context</servlet-name>
+    <servlet-class>plause.appengine.test.ContextServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>context</servlet-name>
+    <url-pattern>/context/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
     <servlet-name>download</servlet-name>
     <servlet-class>plause.appengine.test.DownloadServlet</servlet-class>
   </servlet>
